@@ -1,0 +1,6 @@
+pydantic
+SQLAlchemy
+FastAPI
+Pytest
+psycopg-binary
+asyncpg
