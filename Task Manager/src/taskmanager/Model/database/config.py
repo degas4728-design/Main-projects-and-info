@@ -1,4 +1,3 @@
-'postgresql+psycopg2://postgres:1234@localhost:5432/PostgreSQL'
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Setting(BaseSettings):
