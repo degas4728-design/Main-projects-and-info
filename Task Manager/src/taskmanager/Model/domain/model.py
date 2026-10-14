@@ -10,7 +10,7 @@ class UserSchema(BaseModel):
 
 class TaskSchema(BaseModel):
     title : str = Field(min_length=3, max_length=50)
-    description : str | None = Field(max_length=1000)
+    description : str | None = Field(max_length=200)
     start_time :  FutureDatetime
     end_time : FutureDatetime
 
